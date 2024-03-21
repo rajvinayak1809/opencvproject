@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Scraper (Multiple Links & Different Attractions)</title>
+</head>
+<body>
+    <h1>Website Scraper</h1>
+    <form method="POST" action="/scrape">
+        <label for="links_and_attractions">Enter website URLs with expected total attractions (one per line):</label>
+        <textarea name="links_and_attractions" id="links_and_attractions" rows="5" required></textarea>
+        <br>
+        (Example: https://example.com/attractions,100<br>
+         https://another.com/attractions,50)
+        <br>
+        <button type="submit">Scrape</button>
+    </form>
+</body>
+</html>
